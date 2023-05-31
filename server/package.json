@@ -4,9 +4,9 @@
   "description": "REST API for Movie Review Web App",
   "main": "server.ts",
   "scripts": {
-    "build": "rm -rf build/ && tsc",
+    "build": "rm -rf build/ && npm install && tsc",
     "start": "node build/server.js",
-    "server": "nodemon server/server.ts"
+    "deploy": "rm -rf build/ && tsc && node build/server.js"
   },
   "keywords": [
     "Movie",
