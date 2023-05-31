@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import Joi, { ObjectSchema } from "joi";
-import { IMovie } from "../models/movie";
-import { IReview } from "../models/review";
+import { IMovie } from "../models/Movie";
+import { IReview } from "../models/Review";
 
 export const ValidateSchemas = (schema: ObjectSchema) => {
   return async (req: Request, res: Response, next: NextFunction) => {

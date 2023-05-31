@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import mongoose from "mongoose";
-import ReviewModel from "../models/review";
+import ReviewModel from "../models/Review";
 
 const createReview = (req: Request, res: Response, next: NextFunction) => {
   const { name, comment, imdbId } = req.body;
