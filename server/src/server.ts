@@ -2,8 +2,8 @@ import cors from 'cors';
 import express, { Express, NextFunction, Request, Response } from 'express';
 import http from 'http';
 import mongoose from 'mongoose';
-import { config } from './src/config';
-import { default as movieRoutes, default as reviewRoutes } from './src/routes/MovieRoutes';
+import { config } from './config';
+import { default as movieRoutes, default as reviewRoutes } from './routes/MovieRoutes';
 
 const app : Express = express();
 
