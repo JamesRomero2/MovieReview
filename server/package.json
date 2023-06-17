@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "description": "REST API for Movie Review Web App",
-  "main": "server.ts",
+  "main": "server.js",
   "scripts": {
     "build": "rm -rf build/ && npm install && tsc",
     "start": "node build/server.js",
